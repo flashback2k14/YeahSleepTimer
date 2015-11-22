@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- activity titles -->
+	<string name="app_name">YEAH! Sleep Timer</string>
+	<string name="title_activity_prefs">Einstellungen</string>
+	<!-- Menu -->
+	<string name="action_settings">Einstellungen</string>
+	<string name="action_share">Teilen</string>
+    <!-- Feedback -->
+    <string name="fbSubject">Feedback YEAH! Sleep Timer</string>
+	<string name="fbBody">Vielen Dank für das Benutzen meiner App! Bitte sende mir deine Meinung!\n\nhilfreiche Angaben\n\nTelefon:\nAndroid-OS:\nPro:\nKon:\nAnregungen:\nFehler:</string>
+	<!-- Share -->
+	<string name="shareBody">"I'm using YEAH! Sleep Timer. Get it while it's hot! \n\nhttps://play.google.com/store/apps/details?id=com.yeahdev.yeahsleeptimerpaid"</string>
+	<!-- actvitys -->
+	<string name="tab1">Aufwachzeit</string>
+	<string name="tab2">Ins Bett geh Zeit</string>
+	<string name="tab3">Geh ins Bett, Jetzt!</string>
+    <string name="textWUT">Bitte wähle eine Zeit zum aufwachen aus.</string>
+    <string name="textGTB">Bitte wähle eine Zeit, wenn du ins Bett gehen willst.</string>
+	<string name="startTime">00:00</string>
+	<string name="btnSelectTime">Wähle deine Zeit</string>
+	<string name="phHl">HeadLine</string>
+	<string name="phTl">TimeLine</string>
+	<string name="phCl">CycleLine</string>
+    <string name="wut">. Aufwachzeit:</string>
+    <string name="gtst">. Ins Bett geh Zeit:</string>
+    <string name="sc">. Schlafzyklus</string>
+    <!-- first start dialog -->
+    <string name="firststart_dialog">
+	  <![CDATA[
+	  	<div style="margin:10dp;">
+	      <br/><br/>
+		  <b>Vielen Dank f&uuml;r das Nutzen meiner App. Nach wissenschaftlichen Erkenntnissen ist ein vollkommener Schlaf nach 5 - 6 Schlafzyklen
+		  erreicht. Ein Schlafzyklus dauert in der Regel 1,5 h. Desweiteren geht man von einer gew&ouml;hnlichen Einschlafzeit von 14 min. aus. Diese Zeit
+		  kann in den Einstellungen ver&auml;ndert werden.</b>
+		  <br /><br />
+		  <b>So verwendet man die App.</b>
+		  <br />
+		  <ol>
+			<li>Zuerst muss eine Zeit ausgew&auml;hlt werden.</li>
+			<li>Danach muss der &#39;W&auml;hle deine Zeit&#39; Button gedr&uuml;ckt werden.</li>
+			<li>Die angezeigten Zeiten k&ouml;nnen als Weckzeit durch anklicken eingerichtet werden.</li>
+		  </ol>
+		  <br />
+		  <b>Teile die App, wenn du sie gut findest.</b>
+		  <br /><br />
+		  <small>Das How-To ist nochmals in den Einstellungen zufinden.</small>
+		</div>
+	  ]]>
+    </string>
+    <!-- preferences -->
+	<string name="cat1">Hauptkategorie</string>
+	<string name="upd_fat1">Nutzen der Einschlafzeit</string>
+	<string name="upd_fat2">Einschalten / Abschalten der Einschlafzeit</string>
+	<string name="upd_int1">Anpassen der Einschlafzeit</string>
+	<string name="upd_int2">Wähle deine Zeit. Standard Zeit ist 14 Minuten.</string>
+	<string name="cat2">Unterkategorie</string>
+	<string name="htu1">Verwendung der App</string>
+	<string name="htu2">Bitte sag mir was ich machen kann!</string>
+	<string name="sup">Unterstützung für den Entwickler</string>
+	<string name="sup11">TEST Spende</string>
+	<string name="sup12">TEST Danke für die Unterstützung meiner Arbeit!</string>
+	<string name="sup21">Spende</string>
+	<string name="sup22">Danke für die Unterstützung meiner Arbeit!</string>
+	<string name="sup31">Spende XL</string>
+	<string name="sup32">Großen Danke für die Unterstützung meiner Arbeit!</string>
+	<string name="sup41">Spende XXL</string>
+	<string name="sup42">Danke, Danke, Danke, Danke für die Unterstützung meiner Arbeit!</string>	
+	<string name="fb1">Geh zum Play Store</string>
+	<string name="fb2">Bitte gib mir ein Feedback im Play Store!</string>
+	<string name="fb3">Feedback</string>
+	<string name="fb4">Bitte sende mir ein Feedback per Email!</string>
+	<string name="fb5">Mehr Apps von Yeah!Dev</string>
+</resources>

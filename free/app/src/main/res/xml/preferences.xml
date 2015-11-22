@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="main_category"
+        android:title="@string/cat1" >
+
+        <CheckBoxPreference
+            android:key="perform_updates_fallasleep"
+            android:title="@string/upd_fat1"
+            android:summary="@string/upd_fat2"
+            android:defaultValue="true"
+            android:persistent="true"/>
+
+        <ListPreference
+            android:key="updates_interval_fallasleep"
+            android:title="@string/upd_int1"
+            android:summary="@string/upd_int2"
+            android:defaultValue="840000"
+            android:entries="@array/fallAsleepInterval"
+            android:entryValues="@array/fallAsleepIntervalValues"
+            android:dependency="perform_updates_fallasleep"
+            android:persistent="true"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="sub_category"
+        android:title="@string/cat2">
+
+        <Preference
+            android:key="btnOpenHowToPref"
+            android:title="@string/htu1"
+            android:summary="@string/htu2"
+            android:defaultValue="true"/>
+
+        <PreferenceScreen
+            android:key="supportDeveloperSubscreen"
+            android:title="@string/sup"
+            android:summary="@string/sup"
+            android:persistent="false" >
+
+            <Preference
+                android:key="btnOpenInAppBillingTestPref"
+                android:title="@string/sup11"
+                android:summary="@string/sup12"/>
+
+            <Preference
+                android:key="btnOpenInAppBillingSup1Pref"
+                android:title="@string/sup21"
+                android:summary="@string/sup22"/>
+
+            <Preference
+                android:key="btnOpenInAppBillingSup2Pref"
+                android:title="@string/sup31"
+                android:summary="@string/sup32"/>
+
+            <Preference
+                android:key="btnOpenInAppBillingSup3Pref"
+                android:title="@string/sup41"
+                android:summary="@string/sup42"/>
+
+        </PreferenceScreen>
+
+        <Preference
+            android:key="linkToPlayStorePref"
+            android:title="@string/fb1"
+            android:summary="@string/fb2" />
+
+        <Preference
+            android:key="linkToPlayStoreOtherAppsPref"
+            android:title="@string/fb5"
+            android:summary="@string/fb1" />
+
+        <Preference
+            android:key="btnSendFeedbackEmailPref"
+            android:title="@string/fb3"
+            android:summary="@string/fb4" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

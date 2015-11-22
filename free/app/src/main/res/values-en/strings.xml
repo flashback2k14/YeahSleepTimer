@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- activity titles -->
+	<string name="app_name">YEAH! Sleep Timer</string>
+	<string name="title_activity_prefs">Settings</string>
+	<!-- Menu -->
+	<string name="action_settings">Settings</string>
+	<string name="action_share">Share</string>
+	<!-- Feedback -->
+	<string name="fbSubject">Feedback YEAH! Sleep Timer</string>
+	<string name="fbBody">Thank you very much for using my app! Please send mw your opinion!\n\nuseful information\n\Phone:\nAndroid-OS:\nPro:\nCon:\nSuggestions:\nBugs:</string>
+	<!-- Share -->
+	<string name="shareBody">"I'm using YEAH! Sleep Timer. Get it while it's hot! \n\nhttps://play.google.com/store/apps/details?id=com.yeahdev.yeahsleeptimerpaid"</string>
+	<!-- activities -->
+	<string name="tab1">Wake Up Time</string>
+	<string name="tab2">Go To Bed</string>
+	<string name="tab3">Go To Bed, Now</string>
+	<string name="textWUT">Please select a time when you want to wake up.</string>
+	<string name="textGTB">Please select a time when you want to go to bed.</string>
+	<string name="startTime">00:00</string>
+	<string name="btnSelectTime">Select your Time</string>
+	<string name="phHl">HeadLine</string>
+	<string name="phTl">TimeLine</string>
+	<string name="phCl">CycleLine</string>
+	<string name="wut">. Wake up Time:</string>
+	<string name="gtst">. Go to Bed Time:</string>
+	<string name="sc">. Sleep Cycle</string>
+	<!-- first start dialog -->
+    <string name="firststart_dialog">
+	  <![CDATA[
+	    <div style="margin:10dp;">
+	      <br/><br/>
+	      <b>Thanks for using my App. Here is a little How-to-use the App. According to scientific findings is a perfect sleep after 5-6 sleep cycles
+		  achieved. A sleep cycle lasts 1.5 hours. Further you go from a regular fall asleep time of 14 min. This time can be changed in the settings.</b>
+	      <br/><br/>
+    	  <ol>
+            <li>At the first pick a time.</li>
+            <li>Hit the &#39;SELECT YOUR TIME&#39; Button.</li>
+            <li>Look at the output. You can click at a card and set the time as an alarm.</li>
+          </ol>
+          <br/>
+          <b>Share my App, if you like it.</b>
+          <br/><br/>
+          <small>You can find the How-to under the settings.</small>
+        </div>
+	    ]]>
+    </string>
+	<!-- preferences -->
+	<string name="cat1">Main Category</string>
+	<string name="upd_fat1">Enable fall-asleep-time</string>
+	<string name="upd_fat2">Enable or disable fall-asleep-time</string>
+	<string name="upd_int1">Change fall-asleep-time</string>
+	<string name="upd_int2">Define the fall-asleep-time. Default time is 14 minutes.</string>
+	<string name="cat2">Sub Category</string>
+	<string name="htu1">How to use</string>
+	<string name="htu2">Please tell me what I can do!</string>
+	<string name="sup">Support the Developer</string>
+	<string name="sup11">TEST Donation</string>
+	<string name="sup12">TEST Thanks for supporting my work!</string>
+	<string name="sup21">Donation</string>
+	<string name="sup22">Thanks for supporting my work!</string>
+	<string name="sup31">Donation XL</string>
+	<string name="sup32">Thank you very much for supporting my work!</string>
+	<string name="sup41">Donation XXL</string>
+	<string name="sup42">Thanks, thanks, thanks for supporting my work!</string>
+	<string name="fb1">Go to Play Store</string>
+	<string name="fb2">Please give me a feedback on the play store!</string>
+	<string name="fb3">Feedback</string>
+	<string name="fb4">Please send me a feedback per email!</string>
+	<string name="fb5">More Apps from Yeah!Dev</string>
+</resources>
